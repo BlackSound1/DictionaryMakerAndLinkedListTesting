@@ -27,3 +27,4 @@ What I learned (and techniques I used) on this project:
 - Exception Handling
 - Deep / Shallow Copying
 - Linked Lists
+- Inner Classes
