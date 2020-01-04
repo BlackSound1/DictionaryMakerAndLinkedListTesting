@@ -5,7 +5,6 @@
 package PART1;
 
 import java.io.FileOutputStream;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.PrintWriter;
@@ -18,8 +17,6 @@ import java.io.FileNotFoundException;
  */
 public class Driver {
     public static void main(String[] args) {
-        System.out.println("Using charset: " + Charset.defaultCharset().displayName());
-        System.out.println("Available charsets: " + Charset.availableCharsets());
         // Inits a Scanner
         Scanner userIn = new Scanner(System.in);
 
@@ -170,7 +167,6 @@ public class Driver {
 
         try {
             reader = new Scanner(new FileInputStream("samples/" + fileName),"cp1252");
-            //reader = new Scanner(new FileInputStream("samples/test3.txt"), "UTF-8");
         }catch (FileNotFoundException e){
             e.printStackTrace();
         }
