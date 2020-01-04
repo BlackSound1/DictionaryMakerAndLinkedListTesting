@@ -224,7 +224,7 @@ public class CellListUtilization {
         System.out.println("Size: " + testList.getSize());
 
 
-        System.out.println("\nI BELIEVE ALL THE METHODS WORK APPROPRIATELY. THANK YOU, GOODBYE!");
+        System.out.println("\nTHANK YOU, GOODBYE!");
         userIn.close();
     }
 }
