@@ -14,9 +14,6 @@ public class CellList implements  Cloneable{
      * A class for the definition of a CellNode object, which will be an element in the CellList Linked List
      */
     private class CellNode implements Cloneable{
-        // THIS CLASS HAS THE PRIVATE MODIFIER TO HELP REDUCE THE LIKELIHOOD OF A PRIVACY LEAK.///////
-        // ADDITIONALLY, IT IS AN INNER CLASS, AND THUS, IT'S FIELDS ARE ONLY DIRECTLY ACCESSIBLE BY//
-        // THE OUTER CLASS CellList///////////////////////////////////////////////////////////////////
 
         //////////
         //FIELDS//
