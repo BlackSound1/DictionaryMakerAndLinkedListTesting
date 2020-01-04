@@ -16,6 +16,7 @@ What I learned (and techniques I used) on this project:
 - File I/O
 - Encodings (windows-1252)
 - Exception Handling
+- ArrayLists
 
 PART 2
 This tool implements a Linked List data structure and tests its features. Data is gathered from the "Cell_Info.txt" file in the "samples" folder. 
